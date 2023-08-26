@@ -1,0 +1,223 @@
+    /* Header Session */
+    .header {
+      position: relative;
+      background-image: url('Consultation/homepage_header.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 800px;
+      color: white;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    
+    .header:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; 
+      background-color: rgba(0,0,0,0.5);
+      z-index: 0; 
+    }
+
+    .header-content {
+      width: 50%;
+      padding: 20px;
+      z-index: 1;
+    }
+
+    .header-content h6,
+    .header-content h1 {
+      color: white;
+      text-align: left;
+      margin: 0;
+    }
+
+    .header-content h6 {
+      margin: 36px 0px;
+    }
+
+    .header-content button {
+      font-size: 36px;
+      padding: 10px 60px;
+      margin:36px 0px;
+      background-color: transparent;
+      color: white;
+      border: none;
+      cursor: pointer;
+      position: relative;
+    }
+    
+    .header-content .telephone-icon {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+    
+    .icon-wrapper {
+      display: flex;
+      align-items: center;
+    }
+    
+    .telephone-icon {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translate(-50%, -50%) rotate(90deg);
+      z-index: 2; 
+    }
+    
+    .circle {
+      position: absolute;
+      left: 0px;
+      top: 50%;
+      margin-right: 10px;
+      transform: translateY(-50%);
+      width: 42px;
+      height: 42px;
+      background: #700000;
+      border-radius: 50%; 
+      z-index: 1;
+    }
+    
+    /* About Session */
+    .about {
+      display: flex;
+    }
+    
+    .about-left {
+      width: 50%;
+    }
+    
+    .about-left h3,
+    .about-left h6 {
+      color: black;  
+      margin-bottom: 20px; 
+    }
+    
+    .about-left-content{
+      padding: 15%;
+    }
+    
+    .about-left button {
+      color: #700000;
+      background-color: transparent;
+      border: 2px solid #700000;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .about-left button:hover {
+      color: white;
+      background-color: #700000;
+    }
+    
+    .about-right {
+      background-color: #700000;
+      width: 50%;
+    }
+    
+    .about-right-content {
+      padding: 15%;
+    }
+    
+    .about-right-content h6{
+      color: white;
+      text-align: left; 
+    }
+    
+    .about-right-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+    }
+    
+    .about-right-grid h6, 
+    .about-right-grid h1 {
+      color: white;
+      text-align: center; 
+    }
+    
+    /* Services Session*/
+    .services-header {
+      text-align: center;
+      margin: 2%;
+      padding: 0 25%;
+    }
+    
+    .services-header h3, 
+    .services-header h6 {
+      color: black;
+      margin-bottom: 10px; 
+    }
+    
+    .services-items {
+      margin: 5% 10%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 20px;
+    }
+    
+    .services-insurance, 
+    .services-savingplan,
+    .services-investment {
+      text-align: center;
+      margin: 10%;
+    }
+    
+    .services-items img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    /* Why Choose Us Session*/
+    .why-choose-us {
+      position: relative;
+      background-image: url("Consultation/homepage_wcu.jpg");
+      background-size: cover;
+      text-align: center;
+    }
+    
+    .why-choose-us:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; 
+      background-color: rgba(0,0,0,0.6);
+      z-index: 0; 
+    }
+    
+    .why-choose-us h3,
+    .why-choose-us h6{
+      color: white;
+    }
+    
+    .wcu-header {
+      padding: 40px 10%; 
+      position: relative; 
+      z-index: 1;
+    }
+    
+    .wcu-items {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      position: relative; 
+      z-index: 1;
+    }
+    
+    .wcu-experience, 
+    .wcu-expertise,
+    .wcu-ethics {
+      margin: 10%;
+      padding: 5%;
+    }
+    
+    .wcu-items .fas {
+      font-size: 54px;
+      color: #700000;
+      margin: 10%;
+    }

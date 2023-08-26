@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Margaret Lau- Services</title>
+  <link href="style.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <style>
+    /* Consultation Session */
+    .consultation {
+      background-color: #700000;
+      text-align: center;
+      padding: 5% 25%;
+    }
+    
+    .consultation h3,
+    .consultation h6 {
+      color: white;
+      margin: 20px;
+    }
+    
+    .consultation button {
+      background-color: transparent;
+      color: white;
+      border: 2px solid white;
+      margin-top: 30px;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .consultation button:hover {
+      background-color: white;
+      color: #700000;
+      border: 2px solid #700000;
+    }
+
+    /* Services Session*/
+    .services-header {
+      text-align: center;
+      margin: 2%;
+      padding: 0 25%;
+    }
+    
+    .services-header h3, 
+    .services-header h6 {
+      color: black;
+      margin-bottom: 10px;
+    }
+
+    .services-items {
+      margin: 5% 10%;
+      display: grid;      
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 20px;
+    }
+
+    .services-insurance,
+    .services-savingplan, 
+    .services-investment {
+      text-align: center;
+      margin: 10%;      
+    }
+
+    .services-items img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="navbar">
+      <div class="navbar-logo">
+        <img src="Consultation/logo_margaretlau.png" alt="Logo" href="Homepage.html">
+      </div>
+      <div class="navbar-links">
+          <a class="navbar-items" href="Homepage.html">Home</a>
+          <a class="navbar-items" href="Services.html">Services</a>
+          <a class="navbar-items" href="About.html">About</a>
+          <a class="navbar-items" href="Contact.html">Contact</a>
+      </div>
+      <div class="navbar-consultation">
+          <a class="consultation-btn" href="Contact.html">Consultation</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="services">
+      <div class="services-header">
+        <h3>Our Services</h3>
+        <h6>We provide a range of financial planning services to suit your needs and preferences. Whether you are looking for insurance, saving plan, investment, or a combination of them, we can help you design a customized plan that meets your objectives and budget. We will also review your plan regularly and make adjustments as needed to ensure that you are on track to achieve your financial goals. Let us take care of your financial planning so you can focus on what matters most to you.</h6>
+      </div>
+      <div class="services-items">
+        <div class="services-insurance">
+          <img src="Consultation/homepage_insurance.jpg">
+          <h6><b>Insurance</b></h6>  
+          <h6>Protect yourself and your loved ones from unexpected risks and expenses with our affordable and flexible insurance plans.</h6>
+        </div>
+        <div class="services-savingplan">
+         <img src="Consultation/homepage_savingplan.jpg">
+         <h6><b>Saving Plan</b></h6>
+         <h6>Save for your short-term and long-term goals with our high-interest and low-risk saving plans that suit your lifestyle and needs.</h6>
+        </div>
+        <div class="services-investment">
+         <img src="Consultation/homepage_investment.jpg">
+         <h6><b>Investment</b></h6>
+         <h6>Grow your wealth and diversify your portfolio with our expert advice and guidance on various investment options and strategies.</h6>
+        </div>
+      </div>
+    </div>
+    
+    <div class="consultation" id="consultation">
+      <h3>Comprehensive Financial Consultation</h3>     
+      <h6>Our range of services designed to empower you to shape a secure financial future. Let us craft a plan that aligns with your objectives and financial capacity. Reach out to us for a consultation – your path to financial peace starts here.</h6>    
+      <button onclick="location.href='#'">Pay Now</button>
+    </div>
+
+  </main>
+
+  <div class="footer-session" style="display: flex; justify-content: center; background-color: black;">
+    <div class="footer-content" style="width: 75%;">
+        <div class="row">
+            <div class="footer-col-01" style="color: white; margin: 2%;">
+             	<p>©2023 Margaret Lau<p>
+                <p>Address: Smart-Space 8, Unit 01-03, 05-06, 25/F, CDW Building, 388 Castle Peak Road, Tsuen Wan, NT, Hong Kong</p>
+                <p>Email: enquiry.margaretlau.com</p>
+                <br>
+            </div>
+            <div class="footer-col-02"></div>
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>

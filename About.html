@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Margaret Lau - About Us</title>
+  <link href="style.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <style>
+    /* Header */
+    .about-header {
+      position: relative;
+      background-image: url("Consultation/about_header.jpg");
+      background-size: cover;
+      background-position: center;
+      align-items: center;
+      height: 300px;
+    }
+    
+    .about-header::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.5);
+      z-index: 0;
+    }
+
+    .about-header h1 {
+      position: absolute;
+      top: 50%;  
+      transform: translateY(-50%);
+      width: 100%;
+      text-align: center; 
+      color: white;
+      font-weight: bold;
+      margin: 0%;
+      z-index: 1;
+    }
+
+    /* About Session */
+    .about {
+      display: flex;
+    }
+
+    .about-left {
+      width: 50%;
+    }
+
+    .about-left h3, 
+    .about-left h6 {
+      color: black;
+      margin-bottom: 20px;
+    }
+
+    .about-left-content {
+      padding: 15%;
+    }
+
+    .about-left button {
+      color: #700000;
+      background-color: transparent;
+      border: 2px solid #700000;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;      
+    }
+
+    .about-left button:hover {
+      color: white;
+      background-color: #700000;
+    }
+
+    .about-right {
+      background-color: #700000;
+      width: 50%;
+    }
+
+    .about-right-content {
+      padding: 15%;
+    }
+
+    .about-right-content h6 {
+      color: white;
+      text-align: left;
+    }
+
+    .about-right-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+    }
+
+    .about-right-grid h6, 
+    .about-right-grid h1 {
+      color: white;
+      text-align: center;
+    }
+
+    /* Company Session */
+    .company {
+      background-color: black;
+      text-align: center;
+      padding: 5% 10%;
+    }
+    
+    .company h3,
+    .company h6 {
+      color: white;
+      margin: 20px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="navbar">
+      <div class="navbar-logo">
+        <img src="Consultation/logo_margaretlau.png" alt="Logo" href="Homepage.html">
+      </div>
+      <div class="navbar-links">
+          <a class="navbar-items" href="Homepage.html">Home</a>
+          <a class="navbar-items" href="Services.html">Services</a>
+          <a class="navbar-items" href="About.html">About</a>
+          <a class="navbar-items" href="Contact.html">Contact</a>
+      </div>
+      <div class="navbar-consultation">
+          <a class="consultation-btn" href="Contact.html">Consultation</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="about-header">
+      <h1>About Us</h1>
+    </div>
+
+    <div class="about">
+
+      <div class="about-left">
+        <div class="about-left-content">
+          <h3>Trusted Financial Advisors</h3>
+
+          <h6>We are a financial consulting company that specializes in life insurance and saving plans. We have been in business for 8 years, serving over 100 valued customers with more than 90% satisfaction rating. We have also received over 20 awards and recognitions for our excellence and professionalism. We are committed to helping you plan your financial future with confidence and peace of mind. Contact us today to find out how we can help you achieve your goals.</h6>
+        </div>
+      </div>
+
+      <div class="about-right">
+        <div class="about-right-content">
+          <h6>Let's Number Talk</h6>
+
+          <div class="about-right-grid">
+            <div>
+              <h1>8+</h1>
+              <h6>Years in Business</h6> 
+            </div>
+
+            <div>
+              <h1>100+</h1>
+              <h6>Valued Customers</h6>
+            </div>
+
+            <div>
+              <h1>>90%</h1>
+              <h6>Customer Satisfaction Rating</h6>
+            </div>
+
+            <div> 
+              <h1>20+</h1>
+              <h6>Awards</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+    <div class="company">
+      <h3>Margaret Lau</h3>
+      <h6>We are your trusted partner and ally in achieving your financial goals. We understand that every client is unique and has different needs and preferences. That's why we provide customized financial planning to fit your specific situation and circumstances. We also care about your long-term success and happiness. That's why we provide ongoing support and guidance throughout your financial journey. At Margaret Lau, we are not just your financial advisors. We are your financial friends.</h6>
+    </div> 
+
+  </main>
+
+  <div class="footer-session" style="display: flex; justify-content: center; background-color: black;">
+    <div class="footer-content" style="width: 75%;">
+        <div class="row">
+            <div class="footer-col-01" style="color: white; margin: 2%;">
+             	<p>©2023 Margaret Lau<p>
+                <p>Address: Smart-Space 8, Unit 01-03, 05-06, 25/F, CDW Building, 388 Castle Peak Road, Tsuen Wan, NT, Hong Kong</p>
+                <p>Email: enquiry.margaretlau.com</p>
+                <br>
+            </div>
+            <div class="footer-col-02"></div>
+        </div>
+    </div>
+  </div>
+  
+</body>
+</html>
