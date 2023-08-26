@@ -20,45 +20,62 @@ h6 {
     line-height: 24px;
 }
 
-        /* Navigation bar styles */
-        .navbar {
-            background-color: #000000;
-            overflow: hidden;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px;
-        }
+/* Navigation bar styles */
+.navbar {
+    background-color: #000000;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
 
-        .navbar-logo img {
-            height: 50px; /* Adjust the height as needed */
-            margin-right: 10px;
-        }
+.navbar-logo img {
+    height: 50px;
+    margin-right: 10px;
+}
 
-        .navbar-items {
-            font-size: 18px;
-            color: white;
-            text-align: center;
-            text-decoration: none;
-            padding: 10px;
-        }
+.navbar-items {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
 
-        .navbar-items:hover {
-            color: #700000;
-        }
+.navbar-items:hover {
+    color: #700000;
+}
 
-        .consultation-btn {
-            font-size: 18px;
-            color: #700000;
-            background-color: transparent;
-            border: 2px solid #700000;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
+.consultation-btn {
+    font-size: 18px;
+    color: #700000;
+    background-color: transparent;
+    border: 2px solid #700000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
 
-        .consultation-btn:hover {
-            background-color: #700000;
-            color: white;
-        }
+.consultation-btn:hover {
+    background-color: #700000;
+    color: white;
+}
+
+/* Footer style */
+
+.footer-session {
+    display: flex; 
+    justify-content: center; 
+    background-color: black;
+} 
+
+.footer-content {
+    width: 75%;
+}
+
+.footer-col-01 {
+    color: white; 
+    margin: 2%;
+}
