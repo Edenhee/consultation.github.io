@@ -1,7 +1,8 @@
     /* Header Session */
     .header {
       position: relative;
-      background-image: url('Consultation/homepage_header.jpg');
+      background: url('image/homepage_header.jpg'), rgba(0,0,0,0.5);
+      background-blend-mode: darken;
       background-size: cover;
       background-position: center;
       height: 800px;
@@ -10,27 +11,15 @@
       justify-content: flex-end;
       align-items: center;
     }
-    
-    .header:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%; 
-      background-color: rgba(0,0,0,0.5);
-      z-index: 0; 
-    }
 
     .header-content {
       width: 50%;
       padding: 20px;
-      z-index: 1;
     }
 
     .header-content h6,
     .header-content h1 {
-      color: white;
+
       text-align: left;
       margin: 0;
     }
@@ -89,15 +78,15 @@
     .about-left {
       width: 50%;
     }
+
+    .about-left-content {
+      padding: 15%;
+    }
     
     .about-left h3,
     .about-left h6 {
       color: black;  
       margin-bottom: 20px; 
-    }
-    
-    .about-left-content{
-      padding: 15%;
     }
     
     .about-left button {
@@ -117,26 +106,18 @@
     .about-right {
       background-color: #700000;
       width: 50%;
+      color: white;
     }
     
     .about-right-content {
-      padding: 15%;
-    }
-    
-    .about-right-content h6{
-      color: white;
       text-align: left; 
+      padding: 15%;
     }
     
     .about-right-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-gap: 20px;
-    }
-    
-    .about-right-grid h6, 
-    .about-right-grid h1 {
-      color: white;
       text-align: center; 
     }
     
@@ -175,38 +156,22 @@
     /* Why Choose Us Session*/
     .why-choose-us {
       position: relative;
-      background-image: url("Consultation/homepage_wcu.jpg");
+      background: url("image/homepage_wcu.jpg"), rgba(0,0,0,0.6);
+      background-blend-mode: darken;
       background-size: cover;
-      text-align: center;
-    }
-    
-    .why-choose-us:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%; 
-      background-color: rgba(0,0,0,0.6);
-      z-index: 0; 
-    }
-    
-    .why-choose-us h3,
-    .why-choose-us h6{
       color: white;
+      text-align: center;
     }
     
     .wcu-header {
       padding: 40px 10%; 
       position: relative; 
-      z-index: 1;
     }
     
     .wcu-items {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       position: relative; 
-      z-index: 1;
     }
     
     .wcu-experience, 
